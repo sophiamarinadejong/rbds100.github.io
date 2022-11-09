@@ -91,6 +91,10 @@ h2 {
   clear: both;
 }
 
+.row-handicap h2 {
+  padding-bottom: 5%;
+}
+
 .video1 {
   width: 76%;
   position: relative;

@@ -1,11 +1,31 @@
 .column-parcours {
     float: left;
     width: 50%;
-    padding: 12% 4% 10% 4%;
+    padding: 10% 4% 3% 4%;
     /* height: 300px;  */
     height: fit-content;
   }
   
+  .column-parcours p {
+    font-size: 1.5rem;
+  } 
+
+  .column-parcours-right {
+    float: left;
+    width: 50%;
+    padding: 10% 4% 0 4%;
+    height: 90vh; 
+    /* height: fit-content; */
+  }
+
+  .column-parcours-left {
+    float: left;
+    width: 50%;
+    padding: 10% 4% 0 4%;
+    height: 90vh; 
+    /* height: fit-content; */
+  }
+
   .parcours-text {
       /* padding: 15% 6% 10% 4%; */
   }
@@ -71,11 +91,19 @@
   }
   
   .video3:hover {
-      border: 2px solid var(--darkcream);
+      border: solid 2px var(--darkcream);
   } 
   
   .bg-cream {
       background-color: var(--cream);
+  }
+
+  .bg-ocre-parcours {
+    background-color: var(--ocre); 
+  }
+
+  .bg-tierra-parcours {
+    background-color: var(--tierra);  
   }
   
   .bg-pink-parcours {
@@ -84,7 +112,7 @@
   }
 
 .small-header {
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
   
   

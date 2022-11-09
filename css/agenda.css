@@ -1,0 +1,32 @@
+.mg-top {
+    padding-top: 10%;
+}
+
+.container-bg {
+    display: block;
+    padding-bottom: 8%;
+    /* background-color: red; */
+    margin: 0;
+  }
+
+.container-handi a, .container-bg a {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#cours-1 {
+    background-color: var(--ocre);
+}
+
+#cours-1 {
+    background-color: var(--ltierra);
+}
+
+#cours-3 {
+    background-color: var(--pink);
+    padding-bottom: 8%;
+}
+
+#cours-3 a {
+    text-decoration: underline;
+}

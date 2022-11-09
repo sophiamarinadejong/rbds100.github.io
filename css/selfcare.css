@@ -42,6 +42,41 @@ h2 {
   .intro-selfcare h1 {
     color: var(--darkgrey);
   }
+
+  #niveux {
+    padding-bottom: 3%;
+  }
+
+  .intro-selfcare-2 {
+    position: relative;
+    padding-top: 4%;
+    height: fit-content;
+    width: 80%;
+    margin-left: 10%;
+    color: var(--darkgrey);
+    display: block;
+  }
+
+  .column-leves-2 p {
+    text-align: left;
+    font-size: 1.15rem;
+  }
+
+  .column-leves-2 h3 {
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  
+  .column-leves-2 {
+    float: left;
+    margin: 1%;
+    width: 31.3%;
+    padding: 1.5%;
+    border: 2px solid var(--tierra);
+    border-radius: 25px;
+    height: max-content;
+    background-color: var(--ocre);
+  }
   
   .column-selfcare {
     float: left;
@@ -74,7 +109,7 @@ h2 {
     margin: 1%;
     width: 31.3%;
     padding: 1.5%;
-    border: 2px solid var(--tierra);
+    border: solid 2px var(--warmgrey);
     border-radius: 25px;
     height: max-content;
   }
@@ -86,17 +121,34 @@ h2 {
     clear: both;
   }
 
-.smaller-pg {
-  font-size: 1.1rem;
+
+
+.smaller-pg p {
+  font-size: 1.2rem;
   padding: 0 8% 0 8%;
-  font-family: 'Cormorant Infant', serif;
-  font-weight: 500;
+  /* font-family: 'Cormorant Infant', serif; */
+  font-family: 'Italiana', serif;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+.right-float {
+  float: right;
 }
 
 .entretien {
-  background-color: var(--tierra);
+  background-color: var(--ltierra);
+}
+
+.niveux-bg {
+  background-color: var(--ltierra);
+  margin-top: -15vh;
 }
 
 .mg-top {
   padding-top: 5%;
+}
+
+.row-selfcare a { 
+  text-decoration: underline;
 }

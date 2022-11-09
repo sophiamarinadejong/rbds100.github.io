@@ -1,9 +1,14 @@
 .column-parcours {
   float: left;
   width: 50%;
-  padding: 12% 4% 10% 4%;
+  padding: 12% 4% 6% 4%;
   /* height: 300px;  */
   height: fit-content;
+}
+
+.column-parcours h1 {
+    font-size: 4rem;
+    padding-top: 12%;
 }
 
 .parcours-text {
