@@ -1,173 +1,341 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-   <head>
-      <!-- Meta -->
-      <title>Accueil</title>
-      <meta charset="UTF-8">
-      <meta name="description" content="Free HTML template">
-      <meta name="keywords" content="HTML, template, free">
-      <meta name="author" content="Pamela Paniagua">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- Styles -->
-      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-      <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css"/>
-      <link href="css/style.css" rel="stylesheet" type="text/css"/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-lg navbar-dark">
-         <a class="navbar-brand mx-auto" href="index.html">
-         <img id="logo" src="img/pamela-logo.png" alt="Logo">
-         </a>
-         <div id="toggler" class="wrapper custom-toggler navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
-            <div class="menu-toggle">
-               <span class="icon-bars custom-toggler navbar-toggler-icon"></span>
-            </div>
-         </div>
-         <div id="toggle-nav" class="navbar-collapse collapse">
-            <ul class="navbar-nav">
-               <li class="nav-item"> <a class="nav-link top" href="index.html">Accueil</a> </li>	            
-               <li class="nav-item"> <a class="nav-link top" href="transmission.html">Transmission</a> </li>
-               <li class="nav-item"> <a class="nav-link top" href="creation.html">Creation</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="dansehadicap.html">Danse et<br>Handicap</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="dansetherapie.html">Danse et<br>Therapie</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="dansefamilie.html">Danse et<br>Familie</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="entretien.html">Entretien<br>Corporel</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="monparcours.html">Mon<br>Parcours</a> </li>
-               <li class="nav-item"> <a class="nav-link top" href="agenda.html">Agenda</a> </li>
-               <li class="nav-item"> <a class="nav-link top" href="contact.html">Contact</a> </li>
-            </ul>
-<!--             <div id="social"><p>Your it to gave life whom as. Favourable dissimilar resolution led for and had.</p></div> -->
-         </div>
-      </nav>
 
-<div class="slideshow-container ">
+<head>
+  <!-- Meta -->
+  <title>Accueil</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free HTML template">
+  <meta name="keywords" content="HTML, template, free">
+  <meta name="author" content="Pamela Paniagua">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Styles -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/calendar.css" rel="stylesheet" type="text/css" />
+  <link href="css/footer.css" rel="stylesheet" type="text/css" />
+  <link href="css/dropdown.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+</head>
 
-	<div class="mySlides fade">
-	  <img src="img/home/1.jpg" style="width:100%">
-	</div>
-	<div class="mySlides fade">
-	  <img src="img/home/2.jpg" style="width:100%">
-	</div>
-	<div class="mySlides fade">
-	  <img src="img/home/3.jpg" style="width:100%">
-	</div>
-	<div class="mySlides fade">
-	  <img src="img/home/4.jpg" style="width:100%">
-	</div>
-	<div class="mySlides fade">
-	  <img src="img/home/5.jpg" style="width:100%">
-	</div>
-	<div class="mySlides fade">
-	  <img src="img/home/6.jpg" style="width:100%">
-	</div>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand mx-auto" href="index.html">
+      <img id="logo" src="img/pamela-logo.png" alt="Logo">
+    </a>
+    <div id="toggler" class="wrapper custom-toggler navbar-toggler" data-toggle="collapse"
+      data-target=".navbar-collapse">
+      <div class="menu-toggle">
+        <span class="icon-bars custom-toggler navbar-toggler-icon"></span>
+      </div>
+    </div>
+    <div id="toggle-nav" class="navbar-collapse collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item"> <a class="nav-link top" href="index.html">Accueil</a> </li>
+        <div class="dropdown">
+           <button class="dropbtn"><a href="transmission.html">Transmission</a>
+             <i class="fa fa-caret-down"></i>
+           </button>
+           <div class="dropdown-content">
+             <a href="transmission.html">Danse à l’école</a>
+             <a href="transmission.html">Cours de danse contemporaine</a>
+             <a href="transmission.html">De la théorie à la pratique</a>
+           </div>
+         </div> 
+        <!-- <li class="nav-item"> <a class="nav-link top" href="transmission.html">Transmission</a> </li> -->
+        <div class="dropdown">
+           <button class="dropbtn"><a href="creation.html">Creation</a>
+             <i class="fa fa-caret-down"></i>
+           </button>
+           <div class="dropdown-content">
+             <a href="creation.html">LesDansesPartagées</a>
+             <a href="creation.html">Cie. Ayni</a>
+             <a href="creation.html">Projets chorégraphiques</a>
+           </div>
+         </div> 
+        <!-- <li class="nav-item"> <a class="nav-link top" href="creation.html">Creation</a> </li> -->
+        <li class="nav-item"> <a class="nav-link" href="dansehadicap.html">Danse et<br>Handicap</a> </li>
+        <div class="dropdown">
+           <button class="dropbtn"><a href="selfcare.html">Danse et<br>Self Care</a>
+             <i class="fa fa-caret-down"></i>
+           </button>
+           <div class="dropdown-content">
+             <a href="selfcare.html">Danse-Mouvement-Thérapie</a>
+             <a href="selfcare.html">Projet MOVIDA</a>
+             <a href="selfcare.html">Entretien corporel</a>
+           </div>
+         </div> 
+        <!-- <li class="nav-item"> <a class="nav-link" href="dansetherapie.html">Danse et<br>Therapie</a> </li> -->
+        <li class="nav-item"> <a class="nav-link" href="dansefamilie.html">Danse et<br>Familie</a> </li>
+        <!-- <li class="nav-item"> <a class="nav-link" href="entretien.html">Entretien<br>Corporel</a> </li> -->
+        <li class="nav-item"> <a class="nav-link" href="monparcours.html">Mon<br>Parcours</a> </li>
+        <li class="nav-item"> <a class="nav-link top" href="agenda.html">Agenda</a> </li>
+        <li class="nav-item"> <a class="nav-link top" href="contact.html">Contact</a> </li>
+     </ul>
+      <!--             <div id="social"><p>Your it to gave life whom as. Favourable dissimilar resolution led for and had.</p></div> -->
+    </div>
+  </nav>
 
-</div>
-<br>
 
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-<!--       <div class="shadow"></div> -->
- 
- <script>
-let slideIndex = 0;
-showSlides();
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 1500); // Change image every 2 seconds
-}
 
-/*
-const observer = new IntersectionObserver(entries => {
-  // Loop over the entries
-  entries.forEach(entry => {
-    // If the element is visible
-    if (entry.isIntersecting) {
-      // Add the animation class
-      entry.target.classList.add('foto-animation');
+  <div class="slideshow-container ">
+
+    <div class="mySlides fade">
+      <img src="img/home/1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/home/2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/home/3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/home/4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/home/5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/home/6.jpg" style="width:100%">
+    </div>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+  <!--       <div class="shadow"></div> -->
+
+  <div class="scrolling">
+    <h4 class="scroll-fixed"><img class="arrow-left" src="img/am-capital-arrow-3.svg">Scroll</h4>
+    <h4 class="scroll-scroll"><img class="arrow-left" src="img/am-capital-arrow-4.svg">Scroll</h4>
+  </div>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 1500); // Change image every 2 seconds
     }
-  });
-});
 
-observer.observe(document.querySelector('.intro-text'));
-*/
-
-/* FadeIn Scroll */
-$(document).ready(function() {
-    
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-    
-        /* Check the location of each desired element */
-        $('.fadein').each( function(i){
-            
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
-                
-                $(this).animate({'opacity':'1'},900);
-                    
-            }
-            
-        }); 
-    
+    /*
+    const observer = new IntersectionObserver(entries => {
+      // Loop over the entries
+      entries.forEach(entry => {
+        // If the element is visible
+        if (entry.isIntersecting) {
+          // Add the animation class
+          entry.target.classList.add('foto-animation');
+        }
+      });
     });
     
-});
+    observer.observe(document.querySelector('.intro-text'));
+    */
 
-</script>
-          
-      
-<!--             <div class="container"> -->
-            <div class="wow fadeInUp">
-	            <div class="intro-home">
-	            	<div class="item-zoom">		
-						<img class="foto-intro" src="img/pame.jpg" alt="Photo"> 
-        			</div>			                    
-<!-- 	        <h1 style="text-align: center; font-weight: 600">Pamela Cecilia<br>Paniagua Sanchez</h1><br> -->
+    /* FadeIn Scroll */
+    $(document).ready(function () {
 
-					<div class="intro-text">
-					<h1>Pamela Cecilia Paniagua Sánchez</h1>					
-		            <p>Artiste chorégraphique, pédagogue et Danse-Mouvement-Thérapeute Franco-bolivienne.
-	Entre création et transmission, entre tradition et modernité, entre l’Amérique et l’Europe. Pour elle, la danse concerne et transforme profondément l’individu et l’acte créatif puise de son propre vécu, d’où l’importance de la rendre accessible au plus grand nombre.</p><br> 
-	 				</div>
-	 				
- 				</div>
-        	</div>
-<!--     		</div> -->
-      
-      <!-- Javascript -->
-      <script src="vendor/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-      <script src="vendor/wow/wow.js"></script>
-      <script src="js/script.js"></script>
-      <script>
-         new WOW().init();
-      </script>
-      <!-- End Javascript -->
-   </body>
+      /* Every time the window is scrolled ... */
+      $(window).scroll(function () {
+
+        /* Check the location of each desired element */
+        $('.fadein').each(function (i) {
+
+          var bottom_of_object = $(this).position().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+          /* If the object is completely visible in the window, fade it it */
+          if (bottom_of_window > bottom_of_object) {
+
+            $(this).animate({ 'opacity': '1' }, 900);
+
+          }
+
+        });
+
+      });
+
+    });
+
+  </script>
+
+
+  <!--             <div class="container"> -->
+    <div class="container-index">
+  <div class="wow fadeInUp">
+    <div class="intro-home">
+      <div class="item-zoom">
+        <img class="foto-intro" src="img/pame.jpg" alt="Photo">
+      </div>
+      <!-- 	        <h1 style="text-align: center; font-weight: 600">Pamela Cecilia<br>Paniagua Sanchez</h1><br> -->
+
+      <div class="intro-text" style="color: var(--darkgray)">
+        <h1>Pamela Cecilia Paniagua Sánchez</h1>
+        <p>Artiste chorégraphique, pédagogue et Danse-Mouvement-Thérapeute Franco-bolivienne.
+          Entre création et transmission, entre tradition et modernité, entre l’Amérique et l’Europe. Pour elle, la
+          danse concerne et transforme profondément l’individu et l’acte créatif puise de son propre vécu, d’où
+          l’importance de la rendre accessible au plus grand nombre.</p><br>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- <div class="row" style="margin-right: 0; margin-left: 0;">
+    <div class="column wow fadeInLeft">
+      <h1 class="links-index">Transmission</h1>
+      <h1 class="links-index"> Creation</h1>
+      <h1 class="links-index">Danse et Handicap</h1>
+    </div>
+    <div class="column wow fadeInRight">
+      <h1 class="links-index">Danse et Self Care</h1>
+      <h1 class="links-index">Danse en Familie</h1>
+      <h1 class="links-index">Mon Parcours</h1>
+    </div>
+  </div> -->
+
+  <div class="row" style="margin-right: 0; margin-left: 0;">
+      <h1 class="links-index wow fadeInLeft">Transmission</h1>
+      <h1 class="links-index wow fadeInRight"> Creation</h1>
+      <h1 class="links-index wow fadeInLeft">Danse et Handicap</h1>
+      <h1 class="links-index wow fadeInRight">Danse et Self Care</h1>
+      <h1 class="links-index wow fadeInLeft">Danse en Familie</h1>
+      <h1 class="links-index wow fadeInRight">Mon Parcours</h1>
+  </div>
+
+  <div class="section-agenda">
+    <h2>Agenda</h2>
+  </div>
+
+
+  <footer class="footer">
+    <div class="footer__addr">
+      <h1 class="footer__logo">Something</h1>
+
+      <h2>Contact</h2>
+
+      <address>
+        5534 Somewhere In. The World 22193-10212<br>
+
+        <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+      </address>
+    </div>
+
+    <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">Media</h2>
+
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Online</a>
+          </li>
+
+          <li>
+            <a href="#">Print</a>
+          </li>
+
+          <li>
+            <a href="#">Alternative Ads</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav__item nav__item--extra">
+        <h2 class="nav__title">Technology</h2>
+
+        <ul class="nav__ul nav__ul--extra">
+          <li>
+            <a href="#">Hardware Design</a>
+          </li>
+
+          <li>
+            <a href="#">Software Design</a>
+          </li>
+
+          <li>
+            <a href="#">Digital Signage</a>
+          </li>
+
+          <li>
+            <a href="#">Automation</a>
+          </li>
+
+          <li>
+            <a href="#">Artificial Intelligence</a>
+          </li>
+
+          <li>
+            <a href="#">IoT</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav__item">
+        <h2 class="nav__title">Legal</h2>
+
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#">Terms of Use</a>
+          </li>
+
+          <li>
+            <a href="#">Sitemap</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="legal">
+      <p>&copy; 2022. All rights reserved.</p>
+
+      <div class="legal__links">
+        <span>Design by <a href="">Sophia de Jong</a></span>
+      </div>
+    </div>
+  </footer>
+  <!--     		</div> -->
+
+  <!-- Javascript -->
+  <script src="vendor/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/wow/wow.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/calendar.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <!-- End Javascript -->
+</body>
+
 </html>

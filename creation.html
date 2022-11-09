@@ -1,159 +1,204 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-   <head>
-      <!-- Meta -->
-      <title>Accueil</title>
-      <meta charset="UTF-8">
-      <meta name="description" content="Free HTML template">
-      <meta name="keywords" content="HTML, template, free">
-      <meta name="author" content="Pamela Paniagua">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- Styles -->
-      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-      <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css"/>
-      <link href="css/style.css" rel="stylesheet" type="text/css"/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-lg navbar-dark">
-         <a class="navbar-brand mx-auto" href="index.html">
-         <img id="logo" src="img/pamela-logo.png" alt="Logo">
-         </a>
-         <div id="toggler" class="wrapper custom-toggler navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
-            <div class="menu-toggle">
-               <span class="icon-bars custom-toggler navbar-toggler-icon"></span>
-            </div>
-         </div>
-         <div id="toggle-nav" class="navbar-collapse collapse">
-            <ul class="navbar-nav">
-               <li class="nav-item"> <a class="nav-link top" href="index.html">Accueil</a> </li>	            
-               <li class="nav-item"> <a class="nav-link top" href="transmission.html">Transmission</a> </li>
-               <li class="nav-item"> <a class="nav-link top" href="creation.html">Creation</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="dansehadicap.html">Danse et<br>Handicap</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="dansetherapie.html">Danse et<br>Therapie</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="dansefamilie.html">Danse et<br>Familie</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="entretien.html">Entretien<br>Corporel</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="monparcours.html">Mon<br>Parcours</a> </li>
-               <li class="nav-item"> <a class="nav-link top" href="agenda.html">Agenda</a> </li>
-               <li class="nav-item"> <a class="nav-link top" href="contact.html">Contact</a> </li>
-            </ul>
-<!--             <div id="social"><p>Your it to gave life whom as. Favourable dissimilar resolution led for and had.</p></div> -->
-         </div>
-      </nav>
 
-<div class="slideshow-container ">
+<head>
+  <!-- Meta -->
+  <title>Creation</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free HTML template">
+  <meta name="keywords" content="HTML, template, free">
+  <meta name="author" content="Pamela Paniagua">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Styles -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/dropdown.css" rel="stylesheet" type="text/css" />
+  <link href="css/creation.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+</head>
 
-	<div class="mySlides fade">
-	  <img src="img/creation/1.jpg" style="width:100%">
-	</div>
-	<div class="mySlides fade">
-	  <img src="img/creation/2.jpg" style="width:100%">
-	</div>
-	<div class="mySlides fade">
-	  <img src="img/creation/3.jpg" style="width:100%">
-	</div>
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-<!--       <div class="shadow"></div> -->
- 
- <script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 1500); // Change image every 2 seconds
-}
-
-/*
-const observer = new IntersectionObserver(entries => {
-  // Loop over the entries
-  entries.forEach(entry => {
-    // If the element is visible
-    if (entry.isIntersecting) {
-      // Add the animation class
-      entry.target.classList.add('foto-animation');
-    }
-  });
-});
-
-observer.observe(document.querySelector('.intro-text'));
-*/
-
-/* FadeIn Scroll */
-$(document).ready(function() {
-    
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-    
-        /* Check the location of each desired element */
-        $('.fadein').each( function(i){
-            
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
-                
-                $(this).animate({'opacity':'1'},900);
-                    
-            }
-            
-        }); 
-    
-    });
-    
-});
-
-</script>
-          
-      
-            <div class="container">
-            <div class="wow fadeInUp">
-	            <p>Artiste chorégraphique, pédagogue et Danse-Mouvement-Thérapeute Franco-bolivienne.
-Entre création et transmission, entre tradition et modernité, entre l’Amérique et l’Europe. Pour elle, la danse concerne et transforme profondément l’individu et l’acte créatif puise de son propre vécu, d’où l’importance de la rendre accessible au plus grand nombre.</p><br>
-
-
-        <div class="item-zoom2">
-            <img class="foto-intro1" src="img/creation/4.jpg" alt="Photo"> 
-			<img class="foto-intro2" src="img/creation/5.jpg" alt="Photo"> 
-			<img class="foto-intro3" src="img/creation/6.jpg" alt="Photo"> 
-        </div>	 
-                </div>
-<!--             </div> -->
- </div>
-         </div>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand mx-auto" href="index.html">
+      <img id="logo" src="img/pamela-logo.png" alt="Logo">
+    </a>
+    <div id="toggler" class="wrapper custom-toggler navbar-toggler" data-toggle="collapse"
+      data-target=".navbar-collapse">
+      <div class="menu-toggle">
+        <span class="icon-bars custom-toggler navbar-toggler-icon"></span>
       </div>
-      
-      <!-- Javascript -->
-      <script src="vendor/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-      <script src="vendor/wow/wow.js"></script>
-      <script src="js/script.js"></script>
-      <script>
-         new WOW().init();
-      </script>
-      <!-- End Javascript -->
-   </body>
+    </div>
+    <div id="toggle-nav" class="navbar-collapse collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item"> <a class="nav-link top" href="index.html">Accueil</a> </li>
+        <div class="dropdown">
+          <button class="dropbtn"><a href="transmission.html">Transmission</a>
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="transmission.html">Danse à l’école</a>
+            <a href="transmission.html">Cours de danse contemporaine</a>
+            <a href="transmission.html">De la théorie à la pratique</a>
+          </div>
+        </div>
+        <!-- <li class="nav-item"> <a class="nav-link top" href="transmission.html">Transmission</a> </li> -->
+        <div class="dropdown">
+          <button class="dropbtn"><a href="creation.html">Creation</a>
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="creation.html">LesDansesPartagées</a>
+            <a href="creation.html">Cie. Ayni</a>
+            <a href="creation.html">Projets chorégraphiques</a>
+          </div>
+        </div>
+        <!-- <li class="nav-item"> <a class="nav-link top" href="creation.html">Creation</a> </li> -->
+        <li class="nav-item"> <a class="nav-link" href="dansehadicap.html">Danse et<br>Handicap</a> </li>
+        <div class="dropdown">
+          <button class="dropbtn"><a href="selfcare.html">Danse et<br>Self Care</a>
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="selfcare.html">Danse-Mouvement-Thérapie</a>
+            <a href="selfcare.html">Projet MOVIDA</a>
+            <a href="selfcare.html">Entretien corporel</a>
+          </div>
+        </div>
+        <!-- <li class="nav-item"> <a class="nav-link" href="dansetherapie.html">Danse et<br>Therapie</a> </li> -->
+        <li class="nav-item"> <a class="nav-link" href="dansefamilie.html">Danse et<br>Familie</a> </li>
+        <!-- <li class="nav-item"> <a class="nav-link" href="entretien.html">Entretien<br>Corporel</a> </li> -->
+        <li class="nav-item"> <a class="nav-link" href="monparcours.html">Mon<br>Parcours</a> </li>
+        <li class="nav-item"> <a class="nav-link top" href="agenda.html">Agenda</a> </li>
+        <li class="nav-item"> <a class="nav-link top" href="contact.html">Contact</a> </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="slideshow-container ">
+
+    <div class="mySlides fade">
+      <img src="img/creation/1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/creation/2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/creation/3.jpg" style="width:100%">
+    </div>
+  </div>
+
+  <div class="container-parcours">
+    <div class="row-parcours">
+       <div class="column-parcours bg-pink-parcours">
+          <div class="item-zoom-parcours wow fadeInDown">
+             <img class="foto-parcours" src="img/creation/5.jpg" alt="Photo">
+          </div>
+          <div class="item-zoom-parcours wow fadeInLeft">
+             <img class="foto-parcours" src="img/creation/6.jpg" alt="Photo">
+          </div>
+          <div class="item-zoom-parcours wow fadeInUp">
+             <img class="foto-parcours" src="img/creation/7.jpg" alt="Photo">
+          </div>
+       </div>
+       <div class="column-parcours parcours-text bg-cream">
+          <h1 class="small-header">LesDansesPartagées – soirée de diversité chorégraphique</h1>
+          <br><br>
+          <p class="wow fadeInRight">C’est une soirée ou différents groupes de danse convergent et partagent le plateau scénique. L’idée d’organiser ce moment de « partage » est née de la conviction que la danse peut être un moyen de communication et de lien considérable, comme disait Katherine Dunham : « la danse es un acte social » avant qu’une technique. 
+            « La danse nous appartienne à toutes et à tous », cette soirée veut souligner le fait que la danse est accessible au plus grand nombre et que en dansant ensemble nous avons la possibilité, si on veut, de changer profondément notre rapport au monde, aux autres et à nous-mêmes. 
+            Dans cette espace-temps scénique nous allons pouvoir observer et ressentir les propositions différentes de chaque groupe, mais le commun dénominateur ce sont les individus en état de danse, avec ses propres histoires, son unicité, ses élans et propositions.
+            C’est une soirée unique parce-que, pour la première fois dans l’année, les trois groupes se retrouvent en dansant pendant l’AtelierPartagé pour ensuite aller sur scène… et c’est vous, les spectateurs et spectatrices qui seront témoins de ces rencontres en mouvement.
+            </p>
+       </div>
+     </div>
+    </div>
+
+    <div class="container-parcours">
+      <div class="row-parcours">
+         <div class="column-parcours bg-pink-parcours">
+            <div class="item-zoom-parcours wow fadeInDown">
+               <img class="foto-parcours" src="img/creation/cieayni.jpg" alt="Photo">
+            </div>
+            </div>
+         <div class="column-parcours parcours-text bg-cream">
+            <h1>Cie. Ayni</h1>
+            <br><br>
+            <p class="wow fadeInRight">« HERMANAS » création en cours
+              Sortir de la dichotomie « homme/femme, Amérique/Europe, Bolivie/France, traditionnel/contemporain. Questionner les limites et les frontières, jouer avec…  On se permet de déconstruire des codes des danses traditionnelles pour trouver des résonances intimes.</p>
+         </div>
+       </div>
+      </div>
+
+
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <!--       <div class="shadow"></div> -->
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 1500); // Change image every 2 seconds
+    }
+
+    /* FadeIn Scroll */
+    $(document).ready(function () {
+
+      /* Every time the window is scrolled ... */
+      $(window).scroll(function () {
+
+        /* Check the location of each desired element */
+        $('.fadein').each(function (i) {
+
+          var bottom_of_object = $(this).position().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+          /* If the object is completely visible in the window, fade it it */
+          if (bottom_of_window > bottom_of_object) {
+
+            $(this).animate({ 'opacity': '1' }, 900);
+
+          }
+
+        });
+
+      });
+
+    });
+
+  </script>
+
+  <!-- Javascript -->
+  <script src="vendor/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/wow/wow.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <!-- End Javascript -->
+</body>
+
 </html>

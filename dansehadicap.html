@@ -1,176 +1,287 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-   <head>
-      <!-- Meta -->
-      <title>Accueil</title>
-      <meta charset="UTF-8">
-      <meta name="description" content="Free HTML template">
-      <meta name="keywords" content="HTML, template, free">
-      <meta name="author" content="Pamela Paniagua">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- Styles -->
-      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-      <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css"/>
-      <link href="css/style.css" rel="stylesheet" type="text/css"/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-lg navbar-dark">
-         <a class="navbar-brand mx-auto" href="index.html">
-         <img id="logo" src="img/pamela-logo.png" alt="Logo">
-         </a>
-         <div id="toggler" class="wrapper custom-toggler navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
-            <div class="menu-toggle">
-               <span class="icon-bars custom-toggler navbar-toggler-icon"></span>
-            </div>
-         </div>
-         <div id="toggle-nav" class="navbar-collapse collapse">
-            <ul class="navbar-nav">
-               <li class="nav-item"> <a class="nav-link top" href="index.html">Accueil</a> </li>	            
-               <li class="nav-item"> <a class="nav-link top" href="transmission.html">Transmission</a> </li>
-               <li class="nav-item"> <a class="nav-link top" href="creation.html">Creation</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="dansehadicap.html">Danse et<br>Handicap</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="dansetherapie.html">Danse et<br>Therapie</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="dansefamilie.html">Danse et<br>Familie</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="entretien.html">Entretien<br>Corporel</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="monparcours.html">Mon<br>Parcours</a> </li>
-               <li class="nav-item"> <a class="nav-link top" href="agenda.html">Agenda</a> </li>
-               <li class="nav-item"> <a class="nav-link top" href="contact.html">Contact</a> </li>
-            </ul>
-<!--             <div id="social"><p>Your it to gave life whom as. Favourable dissimilar resolution led for and had.</p></div> -->
-         </div>
-      </nav>
 
-<div class="slideshow-container ">
-	<div class="mySlides fade">
-	  <img src="img/hadicap/2.jpg" style="width:100%">
-	</div>
-	<div class="mySlides fade">
-	  <img src="img/hadicap/3.jpg" style="width:100%">
-	</div>
-	<div class="mySlides fade">
-	  <img src="img/hadicap/4.png" style="width:100%">
-	</div>
-	<div class="mySlides fade">
-	  <img src="img/hadicap/5.JPG" style="width:100%">
-	</div>
+<head>
+  <!-- Meta -->
+  <title>Danse et Handicap</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free HTML template">
+  <meta name="keywords" content="HTML, template, free">
+  <meta name="author" content="Pamela Paniagua">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Styles -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/handicap.css" rel="stylesheet" type="text/css" />
+  <link href="css/dropdown.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+</head>
 
-</div>
-<br>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand mx-auto" href="index.html">
+      <img id="logo" src="img/pamela-logo.png" alt="Logo">
+    </a>
+    <div id="toggler" class="wrapper custom-toggler navbar-toggler" data-toggle="collapse"
+      data-target=".navbar-collapse">
+      <div class="menu-toggle">x
+        <span class="icon-bars custom-toggler navbar-toggler-icon"></span>
+      </div>
+    </div>
+    <div id="toggle-nav" class="navbar-collapse collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item"> <a class="nav-link top" href="index.html">Accueil</a> </li>
+        <div class="dropdown">
+           <button class="dropbtn"><a href="transmission.html">Transmission</a>
+             <i class="fa fa-caret-down"></i>
+           </button>
+           <div class="dropdown-content">
+             <a href="transmission.html">Danse à l’école</a>
+             <a href="transmission.html">Cours de danse contemporaine</a>
+             <a href="transmission.html">De la théorie à la pratique</a>
+           </div>
+         </div> 
+        <!-- <li class="nav-item"> <a class="nav-link top" href="transmission.html">Transmission</a> </li> -->
+        <div class="dropdown">
+           <button class="dropbtn"><a href="creation.html">Creation</a>
+             <i class="fa fa-caret-down"></i>
+           </button>
+           <div class="dropdown-content">
+             <a href="creation.html">LesDansesPartagées</a>
+             <a href="creation.html">Cie. Ayni</a>
+             <a href="creation.html">Projets chorégraphiques</a>
+           </div>
+         </div> 
+        <!-- <li class="nav-item"> <a class="nav-link top" href="creation.html">Creation</a> </li> -->
+        <li class="nav-item"> <a class="nav-link" href="dansehadicap.html">Danse et<br>Handicap</a> </li>
+        <div class="dropdown">
+           <button class="dropbtn"><a href="selfcare.html">Danse et<br>Self Care</a>
+             <i class="fa fa-caret-down"></i>
+           </button>
+           <div class="dropdown-content">
+             <a href="selfcare.html">Danse-Mouvement-Thérapie</a>
+             <a href="selfcare.html">Projet MOVIDA</a>
+             <a href="selfcare.html">Entretien corporel</a>
+           </div>
+         </div> 
+        <!-- <li class="nav-item"> <a class="nav-link" href="dansetherapie.html">Danse et<br>Therapie</a> </li> -->
+        <li class="nav-item"> <a class="nav-link" href="dansefamilie.html">Danse et<br>Familie</a> </li>
+        <!-- <li class="nav-item"> <a class="nav-link" href="entretien.html">Entretien<br>Corporel</a> </li> -->
+        <li class="nav-item"> <a class="nav-link" href="monparcours.html">Mon<br>Parcours</a> </li>
+        <li class="nav-item"> <a class="nav-link top" href="agenda.html">Agenda</a> </li>
+        <li class="nav-item"> <a class="nav-link top" href="contact.html">Contact</a> </li>
+     </ul>
+      <!--             <div id="social"><p>Your it to gave life whom as. Favourable dissimilar resolution led for and had.</p></div> -->
+    </div>
+  </nav>
 
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-<!--       <div class="shadow"></div> -->
-   </div>
- <script>
-let slideIndex = 0;
-showSlides();
+  <div class="slideshow-container ">
+    <div class="mySlides fade">
+      <img src="img/hadicap/2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/hadicap/3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/hadicap/4.png" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="img/hadicap/5.JPG" style="width:100%">
+    </div>
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 1500); // Change image every 2 seconds
-}
+  </div>
+  <br>
 
-/*
-const observer = new IntersectionObserver(entries => {
-  // Loop over the entries
-  entries.forEach(entry => {
-    // If the element is visible
-    if (entry.isIntersecting) {
-      // Add the animation class
-      entry.target.classList.add('foto-animation');
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+  <!--       <div class="shadow"></div> -->
+  </div>
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 1500); // Change image every 2 seconds
     }
-  });
-});
 
-observer.observe(document.querySelector('.intro-text'));
-*/
-
-/* FadeIn Scroll */
-$(document).ready(function() {
-    
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-    
-        /* Check the location of each desired element */
-        $('.fadein').each( function(i){
-            
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
-                
-                $(this).animate({'opacity':'1'},900);
-                    
-            }
-            
-        }); 
-    
+    /*
+    const observer = new IntersectionObserver(entries => {
+      // Loop over the entries
+      entries.forEach(entry => {
+        // If the element is visible
+        if (entry.isIntersecting) {
+          // Add the animation class
+          entry.target.classList.add('foto-animation');
+        }
+      });
     });
     
-});
+    observer.observe(document.querySelector('.intro-handicap'));
+    */
 
-</script>
-          
-            <div class="container">
-	            
-	        <div class="wow fadeInLeft" style="height: 100%; position: absolute;">
-		        <video class="video1" autoplay muted id="videoId"><source src="img/hadicap/video.mp4" type="video/mp4"></video>
-	        </div>
-            </div>
-            
-            <div class="container" style="position: absolute; top: 0;margin-top: 100%;">
-            <div class="wow fadeInRight">
-	            <div class="intro-home">
-					<div class="intro-text" >
-					<h1>Danse et<br>Handicap</h1>
-					<br>
-					<div style="text-align: center"><h3>« La danse nous appartient à tous et à toutes »</h3></div> 
-		            <p>
-<br>
- C’est la prémisse de ces ateliers artistiques et pédagogiques accessibles à des personnes en situation de Handicap qui ont rarement la possibilité de pratiquer l’art de la danse.<br><br>
-L’objectif de ces moments partagés c’est de s’épanouir en dansant, de se lier aux autres et à soi-même dans une ambiance joyeuse et bienveillante.<br><br>
-Interventions ponctuelles et régulières en institution ou en milieu associatif.<br>
-…<br>
-<i><b>« J’ai rencontré le monde de la danse avec des non-danseureuses dans un milieu « différent » quand j’avais 16 ans. J’étais émerveillé de voir des danses hors-normes et si uniques. Ceci a été un élan pour mes choix futurs.<br><br>
-Depuis 2015 je suis référente des ateliers de Danse Inclusive au sein de l’Association Handidanse Handi’art avec des personnes de tout âge, avec ou sans handicap.<br><br>
-Et depuis 2021 j’ai la chance de faire part de l’équipe pédagogique de l’Association La Possible échappée avec les ateliers pédagogiques de Danse Adaptée au sein des différents structures médico-sociaux. »</i></b><br><br>
-</p><br> 
-	 				</div>
-	 				
- 				</div>
-        	</div>
-    		</div>
-    		 </div>
-    		      
-      <!-- Javascript -->
-      <script src="vendor/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-      <script src="vendor/wow/wow.js"></script>
-      <script src="js/script.js"></script>
-      <script>
-         new WOW().init();
-      </script>
-      <!-- End Javascript -->
-   </body>
+    /* FadeIn Scroll */
+    $(document).ready(function () {
+
+      /* Every time the window is scrolled ... */
+      $(window).scroll(function () {
+
+        /* Check the location of each desired element */
+        $('.fadein').each(function (i) {
+
+          var bottom_of_object = $(this).position().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+          /* If the object is completely visible in the window, fade it it */
+          if (bottom_of_window > bottom_of_object) {
+
+            $(this).animate({ 'opacity': '1' }, 900);
+
+          }
+
+        });
+
+      });
+
+    });
+
+  </script>
+
+
+  <div class="container-handi wow fadeInUp" >
+    <div class="container-handicap">
+      <div class="intro-handicap">
+        <h1>Danse et Handicap</h1>
+        <br>
+        <div class="row-handicap">
+          <div style="text-align: center; text-transform: uppercase;">
+            <h2>« La danse nous appartient<br>à tous et à toutes »</h2>
+          </div>
+          <p>C’est la base de ces ateliers artistiques et pédagogiques accessibles à des personnes en situation de
+            Handicap. qui ont rarement la possibilité de pratiquer l’art de la danse.
+            L’objectif de ces moments partagés est de s’épanouir en dansant, de se lier aux autres et à soi-même dans
+            une ambiance joyeuse et bienveillante.
+            Interventions ponctuelles et régulières en institution ou en milieu associatif.</p>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container-handicap-video">
+  <div class="container-video">
+    <video class="video1 wow fadeInLeft " autoplay muted loop id="videoId">
+      <source src="img/hadicap/video.mp4" type="video/mp4">
+    </video>
+  </div>
+  </div>
+
+  <div class="container-handi inclusive">
+    <div class="container-handicap">
+
+      <div class="intro-handicap">
+        <div class="row-handicap">
+          <div class="wow fadeInUp">
+            <h2>LA DANSE INCLUSIVE</h2>
+            <h3>D’abord, qu’est que c’est « l’inclusion » ?</h3><br>
+            <p>C’est une vision transformatrice de la société dans laquelle on cherche que toutes les personnes trouvent
+              sa place dans la société.<br><br>
+              La Danse Inclusive est la pratique de la danse ouverte à toute personne, de tout âge, avec ou sans
+              handicap.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-handi adaptee">
+    <div class="container-handicap">
+
+      <div class="intro-handicap">
+        <div class="row-handicap">
+          <div class="wow fadeInUp">
+ 
+    <h2>LA DANSE ADAPTEE</h2>
+    <p>La Danse Adaptée ce sont des cours de danse adaptés à un public déterminé.
+      Nous allons traverser les fondamentaux de la danse de manière accessible.<br><br>
+      <i>J’ai rencontré le monde de la danse avec des personnes en situation de handicap quand j’avais 16 ans
+        lors d’un stage à l’hôpital psychiatrique de ma ville. J’étais émerveillé de voir des danses si
+        différentes et uniques. Ceci a été une source d’inspiration pour mes choix futurs.<br><br>
+        Depuis 2015, je suis référente des ateliers de Danse Inclusive au sein de l’Association Handidanse
+        Handi’art avec des personnes de tout âge, avec ou sans handicap.<br><br>
+        Depuis 2021, j’ai la chance de faire part de l’équipe pédagogique de l’Association La Possible échappée
+        avec les ateliers pédagogiques de Danse Adaptée au sein des différentes structures médico-sociales.
+        <br><br></i>
+      Plus d’informations<br><b><u><a href="http://handi-danse.com">www.handi-danse.com/</a><br>
+          <a href="https://la-possible-echappee.fr/">www.la-possible-echappee.fr/</a></u></b>
+    </p>
+
+    <!-- <div class="column-handicap column-left">
+              <h2>LA DANSE ADAPTEE</h2>
+              <p>La Danse Adaptée ce sont des cours de danse adaptées à un public déterminé. 
+                Nous allons traverser les fondamentaux de la danse de manière accessible.<br><br>
+              <i><b>J’ai rencontré le monde de la danse avec des personnes en situation de handicap quand j’avais 16 ans lors d’un stage à l’hôpital psyquiatrique de ma ville. J’étais émerveillé de voir des danses si différentes et uniques. Ceci a été une source d’inspiration pour mes choix futurs.<br><br>
+                Depuis 2015 je suis référente des ateliers de Danse Inclusive au sein de l’Association Handidanse Handi’art avec des personnes de tout âge, avec ou sans handicap.<br><br>
+                Depuis 2021 j’ai la chance de faire part de l’équipe pédagogique de l’Association La Possible échappée avec les ateliers pédagogiques de Danse Adaptée au sein des différents structures médico-sociaux.
+                
+                Plus d’informations 	🡺 http://handi-danse.com/
+                🡺https://la-possible-echappee.fr/</i></b></p>
+                </div>
+            <div class="column-handicap column-right">
+
+                <h2>LA DANSE INCLUSIVE</h2>
+                <h3>D’abord, qu’est que c’est « l’inclusion » ?</h3>
+                  <p>C’est une vision transformatrice de la société dans laquelle on cherche que toutes les personnes trouvent sa place dans la société.
+                  La Danse Inclusive est la pratique de la danse ouverte à toute personne, de tout âge, avec ou sans handicap. 
+                  </p>
+              </div> -->
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- Javascript -->
+  <script src="vendor/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/wow/wow.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <!-- End Javascript -->
+</body>
+
 </html>

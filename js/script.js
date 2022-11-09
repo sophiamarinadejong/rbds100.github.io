@@ -1,5 +1,10 @@
-/* Menu Toggle */
+window.addEventListener('scroll', function() {
+  let header = document.querySelector('header');
+  let windowPosition = window.scrollY > 0;
+  header.classList.toggle('scrolling-active', windowPosition);
+  })
 
+/* Menu Toggle */
 $(document).ready(function(){
    $("#toggler").click(function(){
      $("#toggle-nav").fadeToggle(500);
@@ -10,8 +15,8 @@ $(document).ready(function(){
    $('.wrapper').toggleClass('menu--is-revealed');
  });
 
- /* Half Page Responsive */
 
+ /* Half Page Responsive */
  $(document).ready(function($) {
    var alterClass = function() {
      var ww = document.body.clientWidth;

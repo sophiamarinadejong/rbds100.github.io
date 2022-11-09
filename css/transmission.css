@@ -1,0 +1,232 @@
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  /* margin-bottom: 5%; */
+}
+
+.slideshow-container {
+  width: 100vw;
+  position: relative;
+  margin: auto;
+  /* background-color: darksalmon; */
+  box-shadow: 0 0 20px 30px darksalmon;
+}
+
+.slideshow-container2 {
+  width: 44vw;
+  /* padding-top: 25vh; */
+  margin-left: 3%;
+  border-radius: 50px;
+  /* position: relative; */
+  /* 	margin: auto; */
+}
+
+.slideshow-container3 {
+  width: 44vw;
+  /* padding-top: 25vh; */
+  margin-left: 3%;
+  border-radius: 50px;
+  position: relative;
+  /* 	margin: auto; */
+}
+
+.container-handicap {
+  display: block;
+  padding-bottom: 8%;
+  /* background-color: red; */
+  margin: 0;
+}
+
+.container-transmission-video {
+  display: block;
+  margin: 0;
+}
+
+.bg-salmon {
+  background-color: var(--darksalmon);
+}
+
+.inclusive {
+  background-color: var(--darkcream);
+}
+
+.adaptee {
+  background-color: var(--tierra);
+}
+
+
+.container-video {
+  background-color: var(--tierra);
+  height: fit-content;
+  padding: 6% 0 6% 0;
+  box-shadow: 0 0 20px 30px var(--warmgrey);
+}
+
+.intro-transmission {
+  width: 100%;
+  position: relative;
+  padding-top: 8%;
+  height: fit-content;
+  /* color: red; */
+  width: 60%;
+  margin-left: 20%;
+  color: var(--darkgrey);
+  /* 	margin-top: 5%; */
+  display: block;
+}
+
+.intro-transmission-title {
+  width: 100%;
+  position: relative;
+  padding-top: 12%;
+  height: fit-content;
+  width: 60%;
+  margin-left: 20%;
+  color: var(--darkgrey);
+  display: block;
+}
+
+.intro-transmission h1 {
+  color: var(--darkgrey);
+}
+
+.column-handicap {
+  float: left;
+  width: 50%;
+  /* padding: 4%; */
+}
+
+.column-left {
+  padding-right: 3%;
+}
+
+.column-right {
+  padding-left: 3%;
+}
+
+/* Clear floats after the columns */
+.row-transmission:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-trans {
+  margin-left: 6.5%;
+  width: 87%;
+  display: flex;
+  padding-top: 5%;
+  justify-content: space-between;
+}
+
+.row-trans-2 {
+  margin-left: 6.5%;
+  width: 87%;
+  display: flex;
+  padding-top: 5%;
+  margin-top: -1%;
+  justify-content: space-between;
+}
+
+.column-trans img {
+  width: 100%;
+  padding: 2%;
+}
+
+.video2 {
+  width: 76%;
+  position: relative;
+  left: 12%;
+  /* top: 10vh; */
+  opacity: 1;
+  border-radius: 50px;
+  filter: grayscale(100%);
+  /*   border:2px dashed #524F4B; */
+  border: 2px solid var(--tierra);
+}
+
+.item-zoom-trans {
+  position: relative;
+  border: solid 2px var(--tierra);
+  overflow: hidden;
+  border-radius: 50px;
+  width: 42.5vw;
+  background-color: var(--darksalmon);
+  transition: all 0.3s;
+  box-shadow: 0 0 5px 5px var(--pink);
+}
+
+.item-zoom-trans:hover {
+  border: 2px solid var(--darksalmon);
+  /* border-style: inset; */
+}
+
+.item-zoom-trans img {
+  opacity: 0.85;
+  vertical-align: top;
+  max-width: 42.5vw;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.item-zoom-trans:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  /* border: 2px solid var(--darksalmon); */
+}
+
+.item-zoom-trans-2 {
+  position: relative;
+  border: 2px solid var(--darkcream);
+  overflow: hidden;
+  border-radius: 50px;
+  height: fit-content;
+
+  width: 27.5vw;
+  /* top: 20vh; */
+  /* left: 3vw; */
+  background-color: var(--darksalmon);
+  transition: all 0.3s;
+  /* border-style: inset; */
+  background-attachment: fixed;
+}
+
+.item-zoom-trans-2:hover {
+  border: 2px solid var(--darksalmon);
+  /* border-style: inset; */
+}
+
+.item-zoom-trans-2 img {
+  opacity: 0.85;
+  vertical-align: top;
+  max-width: 42.5vw;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  filter: grayscale(100%);
+}
+
+.item-zoom-trans-2:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  /* border: 2px solid var(--darksalmon); */
+}
+
+#ecole {
+  /* background-color: var(--darkcream); */
+}
+
+#cours {
+  background-color: var(--darksalmon);
+}
+
+#theorie {
+  background-color: var(--cream);
+}
+
+.bottom-mg {
+  padding-bottom: 10%;
+}
