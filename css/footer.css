@@ -110,6 +110,7 @@
 	flex-wrap: wrap;
 	color: var(--darkgrey);
 	font-size: 1.2rem;
+	justify-content: space-between;
   }
 
   .legal p {

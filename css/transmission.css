@@ -230,3 +230,45 @@ h2 {
 .bottom-mg {
   padding-bottom: 10%;
 }
+
+
+@media (max-width: 700px) {
+
+.intro-transmission-title {
+  padding-top: 25%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.intro-transmission {
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 10%;
+}
+
+.intro-transmission h1 {
+  padding-top: 20%;
+}
+
+.row-trans {
+  display: block;
+  margin-left: 0;
+  padding-left: 10%;
+  width: 90%;
+}
+
+.item-zoom-trans {
+  margin-bottom: 10%;
+}
+
+.item-zoom-trans, .item-zoom-trans img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.video2 {
+  left: 10%;
+  width: 80%;
+}
+
+}
