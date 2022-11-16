@@ -18,11 +18,12 @@ h2 {
 
 .inclusive {
     background-color: var(--darkcream);
+    box-shadow: 0 0 20px 30px var(--cream);
 }
 
 .adaptee {
     background-color: var(--tierra);
-
+    box-shadow: 0 0 20px 30px var(--pink);
 }
 
 /* 
@@ -39,35 +40,22 @@ h2 {
 }
 
 .intro-handicap {
-  width: 100%;
+  /* width: 100%; */
   position: relative;
   padding-top: 8%;
   height: fit-content;
-  /* color: red; */
   width: 60%;
   margin-left: 20%;
   color: var(--darkgrey);
-  /* 	margin-top: 5%; */
   display: block;
-  /* 	padding-left: 12.5vw;  */
-  /* background-color: var(--cream); */
-  /* margin-top: 120vh; */
-}
-
-.intro-handicap {
-  /* margin-left: 52%;
-	width: 42.5%; */
   position: relative;
-  /* top: -38vh;
-    margin-top: 10%; */
   font-weight: 500;
   color: var(--darkgrey);
-
-  /* background-color: #eee4e1; */
 }
 
 .intro-handicap h1 {
   color: var(--darkgrey);
+  margin-bottom: 8%;
 }
 
 .column-handicap {
@@ -93,6 +81,8 @@ h2 {
 
 .row-handicap h2 {
   padding-bottom: 5%;
+  text-transform: uppercase;
+  font-size: 3.2rem;
 }
 
 .video1 {
@@ -106,3 +96,31 @@ h2 {
   border: 1px solid var(--cream);
 }
 
+@media (max-width: 700px) {
+  .slideshow-container {
+    display: none;
+  }
+
+  .intro-handicap {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .intro-handicap h1 {
+    margin-bottom: 3%;
+    padding-top: 25%;
+  }
+
+  .row-handicap h2 {
+    font-size: 1.6rem;
+  }
+
+  .row-handicap h3 {
+    font-size: 1.4rem;
+  }
+
+  .video1 {
+    width: 80%;
+    left: 10%;
+  }
+}
