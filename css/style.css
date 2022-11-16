@@ -4,6 +4,7 @@
   --darkcream: #ddbea9;
   --tierra: #dfac90;
   --darksalmon: #fcb89f;
+  --salmon: #d69882;
   --pink: #c89f9c;
   --ocre: #ffd18f;
   --warmgrey: #d5bdaf;
@@ -80,7 +81,8 @@ h1 {
   font-size: 1.6rem;
   font-family: "Darker Grotesque", sans-serif;
   margin-left: 91%;
-  top: 77%;
+  top: 74%;
+  color: var(--darkgrey);
   display: inline-flex;
   width: 12%;
   /* 	text-shadow: 0px 0px 4px #ffffff; */
@@ -334,8 +336,13 @@ h1 {
   padding: 5% 0 5% 0;
   background-color: var(--darksalmon);
   margin-left: 2%;
-  box-shadow: 0 0 20px 30px var(--warmgrey);
+  box-shadow: 0 0 20px 30px var(--pink);
 }
+
+.row a {
+  width: 100%;
+}
+
 .column {
   /* margin-right: 2%; */
   /* background-color: white; */
@@ -442,7 +449,7 @@ p {
   background-color: var(--ltierra);
   display: flex;
   padding: 6% 8% 20% 4%;
-  box-shadow: 0 0 20px 30px var(--darksalmon);
+  box-shadow: 0 0 20px 30px var(--salmon);
 }
 
 .container-images img,

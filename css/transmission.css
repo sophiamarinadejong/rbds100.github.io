@@ -140,9 +140,9 @@ h2 {
   /* top: 10vh; */
   opacity: 1;
   border-radius: 50px;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   /*   border:2px dashed #524F4B; */
-  border: 2px solid var(--tierra);
+  border: solid 2px var(--cream);
 }
 
 .item-zoom-trans {
@@ -153,12 +153,13 @@ h2 {
   width: 42.5vw;
   background-color: var(--darksalmon);
   transition: all 0.3s;
-  box-shadow: 0 0 5px 5px var(--pink);
+  /* box-shadow: 0 0 5px 5px var(--pink); */
 }
 
 .item-zoom-trans:hover {
   border: 2px solid var(--darksalmon);
   /* border-style: inset; */
+  box-shadow: 0 0 5px 5px var(--pink);
 }
 
 .item-zoom-trans img {
@@ -179,7 +180,7 @@ h2 {
 
 .item-zoom-trans-2 {
   position: relative;
-  border: 2px solid var(--darkcream);
+  border: solid 2px var(--ocre);
   overflow: hidden;
   border-radius: 50px;
   height: fit-content;
@@ -194,8 +195,9 @@ h2 {
 }
 
 .item-zoom-trans-2:hover {
-  border: 2px solid var(--darksalmon);
+  border: solid 2px var(--salmon);
   /* border-style: inset; */
+  box-shadow: 0 0 5px 5px var(--ocre);
 }
 
 .item-zoom-trans-2 img {
@@ -205,7 +207,7 @@ h2 {
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 
 .item-zoom-trans-2:hover img {
