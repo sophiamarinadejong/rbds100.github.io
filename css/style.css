@@ -91,6 +91,7 @@ h1 {
 .scroll-scroll {
   position: absolute;
   color: white;
+  text-shadow: 2px 2px 10px black;
 }
 
 .arrow-left {
@@ -1399,5 +1400,9 @@ img {
     font-size: 2rem;
     line-height: 1.2;
     /* padding: 4%; */
+  }
+
+  .slideshow-container {
+    display: none;
   }
 }
